@@ -5,7 +5,7 @@ function PortfolioFooter() {
     <footer className="bg-slate-900 text-slate-300 mt-auto border-t border-slate-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Bio / Brand */}
+          
           <div className="md:col-span-2 space-y-3">
             <div className="flex items-center space-x-2">
               <span className="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm">
@@ -46,7 +46,6 @@ function PortfolioFooter() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
               Pages
@@ -70,7 +69,6 @@ function PortfolioFooter() {
             </ul>
           </div>
 
-          {/* Links & Switcher */}
           <div>
             <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-3">
               Admin

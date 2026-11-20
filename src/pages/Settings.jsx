@@ -60,7 +60,6 @@ function Settings() {
         </div>
       )}
 
-      {/* Tabs */}
       <div className="flex border-b border-slate-200 gap-2 sm:gap-6 overflow-x-auto text-xs sm:text-sm font-medium no-scrollbar">
         <button
           onClick={() => setActiveTab('general')}
@@ -94,7 +93,6 @@ function Settings() {
         </button>
       </div>
 
-      {/* Forms */}
       <div className="bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs max-w-3xl">
         {activeTab === 'general' && (
           <form onSubmit={handleGeneralSubmit} className="space-y-4 sm:space-y-5">

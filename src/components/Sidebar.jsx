@@ -27,7 +27,7 @@ function Sidebar({ isOpen, onClose }) {
 
   return (
     <>
-      {/* Mobile Backdrop */}
+      
       {isOpen && (
         <div
           className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-40 lg:hidden"
@@ -36,13 +36,12 @@ function Sidebar({ isOpen, onClose }) {
         />
       )}
 
-      {/* Sidebar Container */}
       <aside
         className={`fixed top-0 bottom-0 left-0 z-50 w-64 bg-slate-900 border-r border-slate-800 flex flex-col transition-transform duration-200 ease-in-out lg:translate-x-0 ${
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        {/* Brand / Logo */}
+        
         <div className="h-16 flex items-center justify-between px-5 border-b border-slate-800 shrink-0">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm shadow-xs">
@@ -62,9 +61,8 @@ function Sidebar({ isOpen, onClose }) {
           </button>
         </div>
 
-        {/* Navigation Links */}
         <div className="flex-1 overflow-y-auto px-3.5 py-4 space-y-1">
-          {/* Quick link to Portfolio */}
+          
           <Link
             to="/"
             onClick={onClose}
@@ -107,7 +105,6 @@ function Sidebar({ isOpen, onClose }) {
           })}
         </div>
 
-        {/* Bottom User Card */}
         <div className="p-4 border-t border-slate-800 shrink-0">
           <NavLink
             to="/admin/profile"

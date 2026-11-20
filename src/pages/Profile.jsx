@@ -52,7 +52,6 @@ function Profile() {
         </div>
       )}
 
-      {/* Profile Header Card */}
       <div className="bg-white rounded-xl border border-slate-200 shadow-xs overflow-hidden">
         <div className="h-24 sm:h-28 bg-slate-800" />
         <div className="px-4 sm:px-6 pb-6 pt-0">
@@ -81,7 +80,6 @@ function Profile() {
             </span>
           </div>
 
-          {/* Quick Metrics */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4 border-t border-slate-100 text-center">
             <div className="p-2.5 rounded-lg bg-slate-50 border border-slate-100">
               <p className="text-base sm:text-lg font-bold text-slate-900">864</p>
@@ -104,7 +102,7 @@ function Profile() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Profile Edit Form */}
+        
         <div className="lg:col-span-2 bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs">
           <h3 className="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100">
             Edit Information
@@ -219,7 +217,6 @@ function Profile() {
           </form>
         </div>
 
-        {/* Activity Feed */}
         <div className="bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs">
           <h3 className="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100">
             Recent Activity

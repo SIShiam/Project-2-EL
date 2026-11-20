@@ -26,7 +26,7 @@ function Contact() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-8">
-      {/* Header */}
+      
       <div className="text-center max-w-2xl mx-auto space-y-2">
         <span className="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
           Contact Me
@@ -39,9 +39,8 @@ function Contact() {
         </p>
       </div>
 
-      {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-8 items-start">
-        {/* Contact Info (2 cols) */}
+        
         <div className="lg:col-span-2 space-y-4">
           <div className="bg-white p-5 sm:p-7 rounded-2xl border border-gray-200 shadow-xs space-y-5">
             <h2 className="text-lg font-bold text-gray-900 border-b border-gray-100 pb-2">
@@ -92,7 +91,6 @@ function Contact() {
               </div>
             </div>
 
-            {/* Social Links */}
             <div className="pt-3 border-t border-gray-100">
               <p className="text-xs font-medium text-gray-400 uppercase mb-2">Social Profiles</p>
               <div className="flex flex-wrap gap-2">
@@ -125,7 +123,6 @@ function Contact() {
           </div>
         </div>
 
-        {/* Contact Form (3 cols) */}
         <div className="lg:col-span-3">
           <div className="bg-white p-5 sm:p-7 rounded-2xl border border-gray-200 shadow-xs">
             <h2 className="text-lg font-bold text-gray-900 border-b border-gray-100 pb-2 mb-4">

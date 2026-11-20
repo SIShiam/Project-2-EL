@@ -50,7 +50,7 @@ function Skills() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-8">
-      {/* Header */}
+      
       <div className="text-center max-w-xl mx-auto space-y-2">
         <span className="text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
           Capabilities
@@ -63,7 +63,6 @@ function Skills() {
         </p>
       </div>
 
-      {/* Grid of skill categories */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
         {skillCategories.map((category) => (
           <div
@@ -94,7 +93,6 @@ function Skills() {
         ))}
       </div>
 
-      {/* Contact Link */}
       <div className="bg-white rounded-xl border border-gray-200 p-6 sm:p-8 text-center space-y-3 max-w-xl mx-auto shadow-xs">
         <h3 className="text-lg font-bold text-gray-900">Looking for a frontend developer?</h3>
         <p className="text-xs sm:text-sm text-gray-600">

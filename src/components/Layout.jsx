@@ -8,13 +8,12 @@ function Layout() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col lg:flex-row overflow-x-hidden">
-      {/* Sidebar navigation */}
+      
       <Sidebar
         isOpen={isMobileSidebarOpen}
         onClose={() => setIsMobileSidebarOpen(false)}
       />
 
-      {/* Main Content Area */}
       <div className="flex-1 flex flex-col lg:pl-64 min-w-0 w-full transition-all duration-200">
         <Topbar onToggleSidebar={() => setIsMobileSidebarOpen(!isMobileSidebarOpen)} />
 

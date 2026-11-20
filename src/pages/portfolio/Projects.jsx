@@ -75,7 +75,7 @@ function Projects() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-6 sm:space-y-8">
-      {/* Header */}
+      
       <div className="text-center max-w-xl mx-auto space-y-2">
         <span className="text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
           Portfolio
@@ -88,7 +88,6 @@ function Projects() {
         </p>
       </div>
 
-      {/* Filter Tabs */}
       <div className="flex justify-center gap-2 flex-wrap">
         {categories.map((cat) => (
           <button
@@ -105,7 +104,6 @@ function Projects() {
         ))}
       </div>
 
-      {/* Projects Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
         {filteredProjects.map((project) => (
           <div

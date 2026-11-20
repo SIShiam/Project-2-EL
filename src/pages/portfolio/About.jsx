@@ -34,7 +34,7 @@ function About() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-8 sm:space-y-12">
-      {/* Intro Header */}
+      
       <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-xs flex flex-col md:flex-row items-center gap-6 sm:gap-8">
         <ProfileAvatar className="w-32 h-32 sm:w-40 sm:h-40" />
 
@@ -65,7 +65,6 @@ function About() {
         </div>
       </div>
 
-      {/* Focus Areas */}
       <div>
         <h2 className="text-xl font-bold text-gray-900 mb-4 text-center sm:text-left">
           Core Focus Areas
@@ -83,7 +82,6 @@ function About() {
         </div>
       </div>
 
-      {/* Experience / Learning Timeline */}
       <div className="bg-white p-6 sm:p-8 rounded-2xl border border-gray-200 shadow-xs">
         <h2 className="text-xl font-bold text-gray-900 mb-6 text-center sm:text-left">
           Learning & Experience

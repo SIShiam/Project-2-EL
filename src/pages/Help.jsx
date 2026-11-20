@@ -34,7 +34,7 @@ function Help() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+      
       <div>
         <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">Help & Support</h1>
         <p className="text-xs sm:text-sm text-slate-500">
@@ -42,7 +42,6 @@ function Help() {
         </p>
       </div>
 
-      {/* Support Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="bg-white p-5 rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
           <div>
@@ -99,7 +98,6 @@ function Help() {
         </div>
       </div>
 
-      {/* FAQs */}
       <div className="bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs">
         <h2 className="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100">
           Frequently Asked Questions

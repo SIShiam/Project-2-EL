@@ -24,7 +24,7 @@ function PortfolioNavbar() {
 
   return (
     <>
-      {/* Mobile Backdrop */}
+      
       {isOpen && (
         <div
           className="fixed inset-0 bg-slate-900/30 backdrop-blur-xs z-40 md:hidden"
@@ -36,7 +36,7 @@ function PortfolioNavbar() {
       <nav className="bg-white/95 backdrop-blur-xs border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center h-16">
-            {/* Brand Logo */}
+            
             <Link to="/" className="flex items-center space-x-2 group shrink-0">
               <span className="w-8 h-8 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-center text-sm shadow-xs">
                 AM
@@ -46,7 +46,6 @@ function PortfolioNavbar() {
               </span>
             </Link>
 
-            {/* Desktop Nav Links */}
             <div className="hidden md:flex items-center space-x-1">
               {navItems.map((item) => (
                 <NavLink
@@ -60,7 +59,6 @@ function PortfolioNavbar() {
               ))}
             </div>
 
-            {/* Desktop Action Buttons */}
             <div className="hidden md:flex items-center space-x-2.5">
               <Link
                 to="/admin"
@@ -77,7 +75,6 @@ function PortfolioNavbar() {
               </Link>
             </div>
 
-            {/* Mobile Controls */}
             <div className="flex items-center space-x-2 md:hidden">
               <Link
                 to="/admin"
@@ -103,7 +100,6 @@ function PortfolioNavbar() {
           </div>
         </div>
 
-        {/* Mobile Dropdown Menu */}
         {isOpen && (
           <div className="md:hidden border-t border-gray-100 bg-white px-4 pt-2 pb-4 space-y-1 shadow-lg relative z-50">
             {navItems.map((item) => (

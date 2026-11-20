@@ -107,7 +107,7 @@ function Dashboard() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+      
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">Dashboard Overview</h1>
@@ -139,7 +139,6 @@ function Dashboard() {
         </div>
       </div>
 
-      {/* 4 Stats Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-5">
         {stats.map((stat) => {
           const Icon = stat.icon
@@ -184,9 +183,8 @@ function Dashboard() {
         })}
       </div>
 
-      {/* Revenue Performance & Product Inventory */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Revenue Bars */}
+        
         <div className="lg:col-span-2 bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
             <div>
@@ -233,7 +231,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Product Inventory Categories */}
         <div className="bg-white p-4 sm:p-6 rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
           <div>
             <h2 className="text-base font-bold text-slate-900 mb-1">Product Categories</h2>
@@ -284,7 +281,6 @@ function Dashboard() {
         </div>
       </div>
 
-      {/* Recent Orders Table */}
       <div className="bg-white rounded-xl border border-slate-200 shadow-xs overflow-hidden">
         <div className="p-4 sm:p-5 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
           <div>
@@ -293,7 +289,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Responsive Table Container */}
         <div className="overflow-x-auto w-full">
           <table className="w-full text-left text-xs sm:text-sm text-slate-600 min-w-[620px]">
             <thead className="bg-slate-50 text-[11px] font-bold text-slate-500 uppercase tracking-wider border-b border-slate-200">

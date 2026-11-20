@@ -77,7 +77,7 @@ function Reports() {
 
   return (
     <div className="space-y-6">
-      {/* Header */}
+      
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
         <div>
           <h1 className="text-xl sm:text-2xl font-bold text-slate-900 tracking-tight">Reports</h1>
@@ -95,7 +95,6 @@ function Reports() {
         </button>
       </div>
 
-      {/* KPI Summary Cards */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <div className="p-3.5 sm:p-4 bg-white rounded-xl border border-slate-200 shadow-xs">
           <p className="text-xs font-semibold text-slate-500 uppercase">Total Reports</p>
@@ -115,7 +114,6 @@ function Reports() {
         </div>
       </div>
 
-      {/* Search & Filter Bar */}
       <div className="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 shadow-xs flex flex-col md:flex-row gap-3 items-stretch md:items-center justify-between">
         <div className="relative flex-1 max-w-md">
           <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
@@ -161,7 +159,6 @@ function Reports() {
         </div>
       </div>
 
-      {/* Reports Table */}
       <div className="bg-white rounded-xl border border-slate-200 shadow-xs overflow-hidden">
         <div className="overflow-x-auto w-full">
           <table className="w-full text-left text-xs sm:text-sm text-slate-600 min-w-[620px]">
@@ -236,7 +233,6 @@ function Reports() {
           </table>
         </div>
 
-        {/* Pagination */}
         <div className="p-3.5 sm:p-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
           <span>Showing {filteredReports.length} of {filteredReports.length} results</span>
           <div className="flex items-center space-x-1">

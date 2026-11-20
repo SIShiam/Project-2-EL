@@ -15,9 +15,9 @@ function Topbar({ onToggleSidebar }) {
 
   return (
     <header className="sticky top-0 z-30 h-16 bg-white border-b border-slate-200 shadow-xs flex items-center justify-between px-3 sm:px-6">
-      {/* Left Area */}
+      
       <div className="flex items-center space-x-2 sm:space-x-4 flex-1 min-w-0 mr-2">
-        {/* Mobile Hamburger Button */}
+        
         <button
           onClick={onToggleSidebar}
           type="button"
@@ -27,7 +27,6 @@ function Topbar({ onToggleSidebar }) {
           <MenuIcon className="w-5 h-5" />
         </button>
 
-        {/* Desktop / Tablet Search Bar */}
         <div className="relative w-full max-w-md hidden md:block">
           <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
             <SearchIcon className="w-4 h-4" />
@@ -39,7 +38,6 @@ function Topbar({ onToggleSidebar }) {
           />
         </div>
 
-        {/* Mobile Search Toggle */}
         <div className="md:hidden">
           <button
             onClick={() => setShowMobileSearch(!showMobileSearch)}
@@ -51,9 +49,8 @@ function Topbar({ onToggleSidebar }) {
         </div>
       </div>
 
-      {/* Right Area */}
       <div className="flex items-center space-x-2 sm:space-x-3 shrink-0">
-        {/* Quick Link back to Portfolio */}
+        
         <Link
           to="/"
           className="hidden sm:inline-flex items-center space-x-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-200 transition-colors"
@@ -63,7 +60,6 @@ function Topbar({ onToggleSidebar }) {
           <span>View Portfolio</span>
         </Link>
 
-        {/* Notifications Dropdown */}
         <div className="relative">
           <button
             onClick={() => setShowNotifications(!showNotifications)}
@@ -102,7 +98,6 @@ function Topbar({ onToggleSidebar }) {
           )}
         </div>
 
-        {/* Profile Link Chip */}
         <Link
           to="/admin/profile"
           className="flex items-center space-x-2 p-1.5 rounded-lg hover:bg-slate-100 transition-colors border border-transparent hover:border-slate-200"
@@ -119,7 +114,6 @@ function Topbar({ onToggleSidebar }) {
         </Link>
       </div>
 
-      {/* Expandable Mobile Search Bar */}
       {showMobileSearch && (
         <div className="absolute top-16 left-0 right-0 bg-white border-b border-slate-200 p-3 flex items-center space-x-2 md:hidden z-20 shadow-md">
           <input

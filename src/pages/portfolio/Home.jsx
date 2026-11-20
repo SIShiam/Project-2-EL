@@ -36,10 +36,10 @@ function Home() {
 
   return (
     <div className="space-y-10 sm:space-y-14 py-6 sm:py-10 max-w-6xl mx-auto px-4 sm:px-6">
-      {/* Hero Section */}
+      
       <section className="bg-white p-6 sm:p-10 md:p-12 rounded-2xl border border-gray-200/90 shadow-xs">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-6 sm:gap-10">
-          {/* Introduction */}
+          
           <div className="flex-1 space-y-4 text-center md:text-left">
             <span className="inline-block px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold">
               Frontend Developer
@@ -76,14 +76,12 @@ function Home() {
             </div>
           </div>
 
-          {/* Profile Image */}
           <div className="shrink-0 flex justify-center">
             <ProfileAvatar className="w-36 h-36 sm:w-44 sm:h-44 md:w-52 md:h-52" />
           </div>
         </div>
       </section>
 
-      {/* Skills Highlight */}
       <section>
         <div className="text-center max-w-xl mx-auto mb-6">
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900">Skills & Technologies</h2>
@@ -113,7 +111,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Featured Projects */}
       <section>
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-2">
           <div>
